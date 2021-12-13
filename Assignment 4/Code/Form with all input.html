@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form with input types</title>
+</head>
+
+<body>
+    <h2>Registeration Form</h2>
+    <form action="action.html" novalidate>
+        <fieldset>
+            <legend>Student Information</legend>
+            <label>Enter your full name</label>
+            <input type="text" name="Fname" placeholder="Enter your first name" required autofocus><input type="text"
+                name="Lname" placeholder="Enter your last name" required> <br><br>
+            <label>Enter your email</label><br>
+            <input type="email" name="email" placeholder="example@gmail.com" required><br>
+            <label>Enter your password</label><br>
+            <input type="password" name="pass" placeholder="Enter your password" required><br>
+            <label>Confirm your password</label><br>
+            <input type="password" name="pass" placeholder="Enter your password again" tabindex="1"><br>
+            <label for="phone">Enter your phone number</label><br>
+            <input type="tel" name="phome" id="phone" placeholder="+91" size="10" autocomplete="tel" onmouseout="">
+            <input type="hidden" name="hidden"><br><br>
+            <label>Select your gender</label><br>
+            <input type="radio" name="gender" id="gender" value="male" />Male <br>
+            <input type="radio" name="gender" id="gender" value="male" />Female <br>
+            <input type="radio" name="gender" id="gender" value="male" />Others <br><br>
+            <label>Select your Date of Birth</label><br>
+            <input type="date" name="date" id="date"><input type="button" value="select"> <br><br>
+            <label>Upload your photo</label><br>
+            <input type="file" name="newfile"><br><br>
+            <label>Enter your permanent adress</label><br>
+            <textarea name="adress" id="" cols="30" rows="5"></textarea><br> <br>
+            Select your city
+            <select name="city" id="city">
+                <option value="Gulbarga">Gulbarga</option>
+                <option value="Bengalore">Bengalore</option>
+                <option value="Bidar">Bidar</option>
+                <option value="Raichur">Raichur</option>
+                <option value="other">other</option>
+            </select><br><br>
+            Select your State
+            <select name="state" id="state">
+                <option value="Karnataka">Karnataka</option>
+                <option value="Telengana">Telengana</option>
+                <option value="Maharashta">Maharashta</option>
+                <option value="Goa">Goa</option>
+                <option value="other">other</option>
+            </select><br><br>
+            Select your Country
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Saudi">Saudi</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Qatar">Qatar</option>
+                <option value="other">other</option>
+            </select><br><br>
+            <label for="color">Select your favorite color:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <label>Select the Course you want to join</label><br>
+            <input type="radio" name="radio" id="radio" value="Fullstack">Full-Stack <br>
+            <input type="radio" name="radio" id="radio" value="DataScience">Data Science <br>
+            <input type="radio" name="radio" id="radio" value="DataAnalysis">Data Analysis <br>
+            <input type="radio" name="radio" id="radio" value="Python">Python Developer <br>
+            <input type="radio" name="radio" id="radio" value="aws">Amazon Web Services <br><br>
+            <label>Select the Programming Languages</label><br>
+            <input type="checkbox" name="1" id="1" value="Python">Python <br>
+            <input type="checkbox" name="2" id="2" value="HTML">HTML <br>
+            <input type="checkbox" name="3" id="3" value="CSS">CSS <br>
+            <input type="checkbox" name="4" id="4" value="JavaScript">JavaScript <br>
+            <input type="checkbox" name="5" id="5" value="NoSQL">NoSQL <br><b></b>
+            <input type="image" src="html.png" alt="send" width="150px"><br>
+            <label>Select week of the batch </label><br>
+            <input type="week" name="week" id="week"><br>
+            <label>Select month of the batch </label><br>
+            <input type="month" name="month" id=""><br>
+            <label>Select Date & Time for course</label> <br>
+            <input type="datetime-local" name="coursedat&time" id=""><br>
+            <label>Select batch number </label><br>
+            <input type="number" name="number" id="number" size="2"><br>
+            <label>Search for batch here </label><br>
+            <input type="search" name="search" id="search"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
