@@ -4,7 +4,7 @@ Paragraphs <br>
 Hyperlinks <br>
 Horizontal Lines <br>
 Bold text <br>
-Important tex <br>
+Important text <br>
 Italic text <br>
 Emphasized text <br>
 Marked text <br>
