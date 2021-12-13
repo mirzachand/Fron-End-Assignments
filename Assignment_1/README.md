@@ -1,7 +1,7 @@
-Creating HTML Code which shows some example of:
-Headings
-Paragraphs
-Hyperlinks
+Creating HTML Code which shows some example of:<br>
+Headings <br>
+Paragraphs<br>
+Hyperlinks<br>
 Horizontal Lines
 Bold text
 Important tex
