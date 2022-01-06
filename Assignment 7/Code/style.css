@@ -1,0 +1,32 @@
+*{
+  margin: 5;
+  padding: 0;
+}
+
+.form-class{
+  height: 8%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 26%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-left: 41%;
+  background: rgb(151, 67, 230);
+  color: white;
+
+}
+
+.form-class1{
+  height: 95%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 633px;
+  margin: 0 auto;
+  margin-top:2%;
+  margin-left: 35%;
+  background: blueviolet;
+  color: white;
+
+}
