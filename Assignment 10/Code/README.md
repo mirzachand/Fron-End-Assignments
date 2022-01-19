@@ -1,1 +1,0 @@
-<h2><b>Personal Portfolio Website</b></h2>
