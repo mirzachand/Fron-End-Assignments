@@ -1,0 +1,39 @@
+*{
+    margin: 10px;
+    padding: 5px;
+}
+
+.main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.heading{
+    color: rgb(252, 4, 4);
+}
+
+.description{
+    color: violet;
+}
+
+.paragraph{
+    /* color: blueviolet; */
+    
+}
+.achievement{
+    color: blue;
+}
+
+.movies{
+    color: rgb(7, 199, 199);
+
+}
+.awards{
+    color: rgb(7, 199, 199);
+}
+.ol{
+    background-color: bisque;
+}
+.ul{
+    background-color: bisque;
+}
