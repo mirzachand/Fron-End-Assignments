@@ -6,5 +6,7 @@
 <b>Assignment 4 - HTML form with all input types </b> <br>
 <b>Assignment 5 - Using different CSS styles in HTML  </b> <br>
 <b>Assignment 6 - Create fancy tables </b> <br>
-<b>Assignment 7 - Login form</b> <br>
+<b>Assignment 7 - Sign Up form</b> <br>
+<b>Assignment 8 - Login form</b> <br>
+<b>Assignment 9 - Apply Border, color, font properties on the wiki page created in the past</b> <br>
 <b>Assignment 10 - Personal portfolio website </b> <br>
