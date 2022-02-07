@@ -14,7 +14,11 @@
 <b>Assignment 12 - JavaScript For Loop </b> <br>
 <b>Assignment 13 - Multiplication in JavaScript </b> <br>
 <b>Assignment 14 - Wedding Invitation Using HTML CSS </b> <br>
-<!-- <b>Assignment 15 - </b> <br> -->
-<!-- <b>Assignment 16 - </b> <br> -->
-<!-- <b>Assignment 17 - </b> <br> -->
+<b>Assignment 15 - Use array's, filter, map and reducefunction for group of object. </b> <br>
+<b>Assignment 16 - Build a simple Calcultor only on two numbers & Simple interest Calcultor. </b> <br>
+<b>Assignment 18 - Bulb switch on and off with 1 and two buttons. </b> <br>
+<b>Assignment 19 - Change background color on click of button with a color. </b> <br>
+<b>Assignment 20 - Update different heading based on scroll,mouse events . </b> <br>
+<!-- <b>Assignment 21 - </b> <br> -->
+
 
