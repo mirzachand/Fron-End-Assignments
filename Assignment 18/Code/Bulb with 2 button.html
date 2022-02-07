@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+   <title>Bulb On Off</title>
+   <style>
+      .main {
+         text-align: center;
+      }
+
+      .myButton {
+         background-color: blanchedalmond;
+      }
+
+      .myButton1 {
+         background-color: bisque;
+      }
+   </style>
+
+</head>
+
+<body>
+   <div class="main">
+      <h1 id="bulbstatus">Bulb On Off with two switch buttons</h1>
+      <img id="bulb"
+         src="https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg"
+         width="200px"> <br>
+      <input type="button" class="myButton" value="Bulb On" onclick="bulbon()">
+      <input type="button" class="myButton1" value="Bulb Off" onclick="bulboff()">
+   </div>
+
+   <script>
+      function bulbon() {
+         document.getElementById("bulb").src = "https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg";
+      }
+
+      function bulboff() {
+         document.getElementById("bulb").src = "https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg";
+      }
+   </script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bulb with one switch button</title>
+  <style>
+    *{
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div style="text-align: center;">
+    <h1>Bulb with one switch button</h1>
+    <img id="img"
+      src="https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg"
+      style="height: 300px;" alt="Bulb img"><br>
+    <button id="button" onclick="fu()">Turn OFF</button>
+  </div>
+  <script>
+    var c = 0;
+    function fu() {
+      if (c == 0) {
+        document.getElementById('img').src = "https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg";
+        document.getElementById("button").innerHTML = "Turn ON";
+        c = 1;
+      }
+      else if (c == 1) {
+        document.getElementById("img").src = "https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg";
+        document.getElementById("button").innerHTML = "Turn OFF";
+        c = 0;
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Background color change with button</title>
+  <style>
+    .main{
+      text-align: center;
+      margin: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Background color change with button</h1>
+
+    <button type="button" onclick="myFunction1()" style="color: red;">Change color to red</button><br><br>
+    <button type="button" onclick="myFunction2()" style="color: purple;">Change color to purple</button><br><br>
+    <button type="button" onclick="myFunction3()" style="color: green;">Change color to green</button><br><br>
+    <button type="button" onclick="myFunction4()" style="color: blue;">Change color to blue</button><br><br>
+
+    <script>
+      function myFunction1() {
+        document.body.style.backgroundColor = "red";
+      }
+      function myFunction2() {
+        document.body.style.backgroundColor = "purple";
+      }
+      function myFunction3() {
+        document.body.style.backgroundColor = "green";
+      }
+      function myFunction4() {
+        document.body.style.backgroundColor = "blue";
+      }
+    </script>
+  </div>
+
+</body>
+
+</html>

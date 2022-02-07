@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Event handlers</title>
+</head>
+
+<body>
+    <h1 style="color: red;">Event Handler Examples</h1> <br>
+    <h1 id="demo1" style="color: blueviolet;">Onclick Event</h1>
+    <button onclick="myFunction()">Click me</button>
+
+    <h1 style="color: blueviolet;">2. Mouse over & Mouse out event</h1>
+    <h2 id="demo2" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over here</h2>
+
+    <h1 style="color: blueviolet;">3.Mouse up & Mouse down event</h1>
+    <h2 id="demo3" onmousedown="mouseDown()" onmouseup="mouseUp()">Click me.</h2>
+
+    <h1 style="color: blueviolet;">4. Wheel Event</h1>
+    <div id="demo4" onwheel="myFunction1()">This example demonstrates how to assign an "onwheel" event event to a DIV
+        element. Roll the mouse wheel over me - either up or down!</div>
+
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo1").innerHTML = "You have used mouse click event";
+        }
+
+        function mouseOver() {
+            document.getElementById("demo2").style.color = "red";
+        }
+
+        function mouseOut() {
+            document.getElementById("demo2").style.color = "green";
+        }
+        function mouseDown() {
+            document.getElementById("demo3").innerHTML = "The mouse button is held down.";
+        }
+
+        function mouseUp() {
+            document.getElementById("demo3").innerHTML = "You released the mouse button.";
+        }
+        function myFunction1() {
+            document.getElementById("demo4").style.fontSize = "35px";
+            document.getElementById("demo4").style.color = "red";
+        }
+
+    </script>
+</body>
+
+</html>
