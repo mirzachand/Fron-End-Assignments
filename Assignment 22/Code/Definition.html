@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Types of Javascript functions</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 5px;
+            background-color: antiquewhite;
+        }
+        h1{
+            color: brown;
+        }
+        h2{
+            color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+    <h1>Types of Javascript functions</h1>
+    <h2><b>1.Arrow function</b></h2>
+    <p> Arrow function is one of the features introduced in the ES6 version of JavaScript. It allows you to create
+        functions in a cleaner way compared to regular functions. <br><br><b> Example:</b></p>
+    <pre>
+        hello = () => {
+            return "Hello World!";
+          }
+    </pre>
+
+
+    <h2><b> 2.HIgher Order function</b></h2>
+    <p> Higher Orders Functions are functions that perform operations on other functions<br><br><b> Example:</b></p>
+    <pre>
+        const numbers = [1, 2, 3, 4, 5];
+
+        function addOne(array) {
+        for (let i = 0; i < array.length; i++) {
+        console.log(array[i] + 1);
+            }
+        }
+
+        addOne(numbers);
+        
+    </pre>
+
+    <h2><b> 3.Function Expressions</b></h2>
+    <p> Function Expression  allows us to create an anonymous function which doesn't have any function name <br><br><b> Example:</b></p>
+    <pre>
+        // program to find the square of a number
+        // function is declared inside the variable
+        let x = function (num) { return num * num };
+        console.log(x(4));
+
+        // can be used as variable value for other variables
+        let y = x(3);
+        console.log(y);
+
+        Output
+        16
+        9
+        
+    </pre>
+
+    <h2><b> 4.Nested function</b></h2>
+    <p>The nested (inner) function is private to its containing (outer) function.It also forms a closure. A closure is
+        an expression (most commonly, a function) that can have free variables together with an environment that binds
+        those variables (that "closes" the expression). <br><br><b> Example:</b></p>
+    <pre>
+        function addSquares(a, b) {
+            function square(x) {
+              return x * x;
+            }
+            return square(a) + square(b);
+          }
+          a = addSquares(2, 3); // returns 13
+          b = addSquares(3, 4); // returns 25
+          c = addSquares(4, 5); // returns 41
+    </pre>
+
+    <h2><b> 5.Callback function</b></h2>
+    <p>A callback function is a function passed into another function as an argument, which is then invoked inside the
+        outer function to complete some kind of routine or action. <br><br><b> Example:</b></p>
+    <pre>
+        function print(callback) {  
+            callback();
+        }
+    </pre>
+
+    <h2><b> 6.Anonymous Function</b></h2>
+    <p>Anonymous Function is a function that does not have any name associated with it. Normally we use the function
+        keyword before the function name to define a function in JavaScript, however, in anonymous functions in
+        JavaScript, we use only the function keyword without the function name. <br><br><b> Example:</b></p>
+    <pre>
+        var greet = function () {
+            console.log("Welcome to GeeksforGeeks!");
+        };
+          
+        greet();
+    </pre>
+</div>
+</body>
+
+
+
+</html>

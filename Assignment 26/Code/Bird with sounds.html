@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bird With sounds</title>
+    <style>
+        body {
+            background: linear-gradient(to top right, #e0d423, #ec5cd4);
+
+        }
+
+        div {
+
+            margin-left: 8%;
+            display: flex;
+            align-items: center;
+            margin-top: 8%;
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <div><img src="./attachments/img/Indian Roller.jpg" id="im" onclick="audio3.play();"></img></div>
+        <div><img src="./attachments/img/knobbilled.jfif" id="im" onclick="audio4.play();"></img></div>
+        <div><img src="./attachments/img/black  stork.jpg" id="im" onclick="audio1.play();"></img></div>
+        <div><img src="./attachments/img/Grey_Heron.jpg" id="im" onclick="audio2.play();"></img></div>
+    </div>
+
+    <script>
+        const audio1 = new Audio();
+        audio1.src = "./attachments/sounds/Black Stork.mp3";
+        const audio2 = new Audio();
+        audio2.src = "./attachments/sounds/Grey Heron.mp3";
+        const audio3 = new Audio();
+        audio3.src = "./attachments/sounds/Indian Roller.mp3";
+        const audio4 = new Audio();
+        audio4.src = "./attachments/sounds/Knob billed.mp3";
+    </script>
+
+</body>
+
+</html>

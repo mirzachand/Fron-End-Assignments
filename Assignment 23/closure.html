@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="jajj,js"></script>
+</head>
+
+<body>
+    <h1>Closure</h1>
+    <h2>closure is a function along with its lexical enviroment.</h2>
+
+
+    <!-- Example 1 -->
+    <script>
+        function counter(){
+            var z = 100;
+            console.log(z);
+            function increment(){
+                z++;
+                console.log(z);
+            }
+            return increment
+        }
+    </script>
+
+    <!-- Example 2 -->
+    <script>
+        console.log("Hello World")
+        var a = 10;
+        function x() {
+            var a = 100;
+            return function y() {
+                console.log(a);
+            }
+        }
+    </script>
+
+    <!-- Example 3 -->
+    <script>
+        console.log("Hello World")
+        var a = 10;
+        function z() {
+            var w = 30;
+            return function x() {
+                var a = 100, b = 10;
+                return function y() {
+                    console.log(a, w);
+                }
+            }
+        }
+
+        z()()();
+    </script>
+
+</body>
+
+</html>

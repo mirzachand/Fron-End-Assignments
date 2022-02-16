@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-kit</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="keys">
+
+            <div data-key="65" class="tune">
+                I
+            </div>
+            <div data-key="83" class="tune ">
+                R
+            </div>
+            <div data-key="68" class="tune">
+                O
+            </div>
+            <div data-key="70" class="tune">
+                N
+            </div>
+            <div data-key="74" class="tune">
+                M
+            </div>
+            <div data-key="75" class="tune">
+                A
+            </div>
+            <div data-key="76" class="tune">
+                N
+            </div>
+        </div>
+    </div>
+    <audio data-key="73" src="sound/tom-1.mp3"></audio>
+    <audio data-key="82" src="sound/ride.wav"></audio>
+    <audio data-key="79" src="sound/tom.wav"></audio>
+    <audio data-key="78" src="sound/tom-4.mp3"></audio>
+    <audio data-key="77" src="sound/snare.wav"></audio>
+    <audio data-key="65" src="sound/tom-2.mp3"></audio>
+    <audio data-key="78" src="sound/ride.wav"></audio>
+    <script>
+
+        window.addEventListener('keydown', (e) => {
+            const audio = document.querySelector(`audio[data-key='${e.keyCode}']`);
+            const key = document.querySelector(`.tune[data-key='${e.keyCode}']`);
+            if (!audio) return; // wrong key press
+            audio.currentTime = 0;//rewind to start
+            audio.play();
+
+
+        });
+    </script>
+</body>
+
+</html>
